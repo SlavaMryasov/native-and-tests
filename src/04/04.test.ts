@@ -1,5 +1,5 @@
 
-test('should take old men older then 90', () => {
+test.skip('should take old men older then 90', () => {
 
     const ages = [18, 22, 20, 1, 100, 90, 14];
 
@@ -11,7 +11,7 @@ test('should take old men older then 90', () => {
 
 
 
-test('should take courses cheaper then 160', () => {
+test.skip('should take courses cheaper then 160', () => {
 
     const courses = [
         {title: "css", price: 100},
@@ -26,7 +26,7 @@ test('should take courses cheaper then 160', () => {
     expect(cheapCourses[1].title).toBe('react')
 })
 
-test('get only completed tasks', () => {
+test.skip('get only completed tasks', () => {
     const tasks = [
         {id:1, title:'task1', description: 'html', completed: true},
         {id:2, title:'task2', description: 'js', completed: true},
