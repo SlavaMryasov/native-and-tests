@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 // import { splitIntoWords } from './01-hello-tests/01';
 import { sum1 } from './03/03';
+import { User } from './06/06_callback';
 
 let a = sum1
 
@@ -21,6 +22,9 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <App />
+    <User/>
+    <hr />
+    
   </React.StrictMode>
 );
 
