@@ -28,6 +28,7 @@ beforeEach(()=> {
 })
 
     test.skip('messages for students', ()=> {
+
         // const age= props.age;
         // const lessons= props.lessons;
         const {age, lessons} = props
@@ -43,7 +44,9 @@ beforeEach(()=> {
         expect(title).toBe('tatarstan')
 })
 
+
 test.skip('messages for students', ()=> {
+
     const lesson1 = props.lessons[0]
     const lesson2 = props.lessons[1]
 

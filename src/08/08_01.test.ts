@@ -13,15 +13,17 @@ beforeEach(()=> {
  }
 })
 
-test.skip('should update corresponding user', () => {
 
+test.skip('should update corresponding user', () => {
     users[1].name = 'ekaterina'
 
     expect(users['1'].name).toBe('ekaterina')
     expect(users['1']).toEqual({ id: 1, name: "ekaterina" })
 })
 
+
 test.skip('should delete user from arr', ()=> {
+
     delete users['1']
 
     expect(users['1']).toBeUndefined()
