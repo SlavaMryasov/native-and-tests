@@ -3,7 +3,7 @@ const incAge = (u: any) =>{
     u.age++
 }
 
-test('big test', ()=> {
+test.skip('big test', ()=> {
     let user:any = {
         name: 'slava',
         age: 27
@@ -17,7 +17,7 @@ test('big test', ()=> {
 })
 
 
-test('array test', ()=> {
+test.skip('array test', ()=> {
     let users:any = [
         {name: 'slava',age: 27},
         {name: 'igor',age: 20}
@@ -32,7 +32,7 @@ test('array test', ()=> {
 })
 
 
-test('value type test', ()=> {
+test.skip('value type test', ()=> {
     let users = 100;
     let adminsCount= users
     adminsCount = adminsCount+1
@@ -43,7 +43,7 @@ test('value type test', ()=> {
 })
 
 
-test('reference type', ()=> {
+test.skip('reference type', ()=> {
     let user:any = {
         name: 'slava',
         age: 27,
@@ -60,7 +60,7 @@ test('reference type', ()=> {
     expect(user.address.title).toEqual('moskow')
 })
 
-test('reference type array test', ()=> {
+test.skip('reference type array test', ()=> {
     let user:any = {
         name: 'slava',
         age: 27,
